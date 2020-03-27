@@ -10,6 +10,7 @@ import Logo from "../../components/Logo"
 import heroesImg from "../../assets/heroes.png"
 
 export default function Logon() {
+
   const history = useHistory()
   const [id, setId] = useState("")
 
@@ -56,4 +57,5 @@ export default function Logon() {
       <img src={heroesImg} alt="Heroes" />
     </div>
   )
+
 }
